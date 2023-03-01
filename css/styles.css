@@ -4,3 +4,9 @@ body{
     height: 100vh;
     margin: 0;
 }
+
+label{
+    display: inline-block;
+    margin: 0.5rem 0;
+    background-color: rgb(202, 202, 253);
+}
