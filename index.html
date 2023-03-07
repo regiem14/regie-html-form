@@ -12,18 +12,39 @@
 
     <form action="#">
         <fieldset>
-            <label for="#">Enter your First Name:<input type="text" required></label><br>
-            <label for="#">Enter your Last Name:<input type="text" required></label><br>
-            <label for="#">Enter your Email:<input type="email" required></label><br>
-            <label for="#">Enter your Password:<input type="password" minlength="8" pattern="[a-z0-5{8,}]" required></label><br>
+            <label for="#">Enter your First Name:<input type="text" required></label>
+            <label for="#">Enter your Last Name:<input type="text" required></label>
+            <label for="#">Enter your Email:<input type="email" required></label>
+            <label for="#">Enter your Password:<input type="password" minlength="8" pattern="[a-z0-5{8,}]" required></label>
         </fieldset>
         <fieldset>
             <label for="#"><input type="radio" name="account-type" id="">Personal Account</label>
             <label for="#"><input type="radio" name="" id="account-type">Business Partner Account</label>
             <label for="#"><input type="checkbox" required>I accept the <a href="#">Terms and Conditions</a></label>
-            
         </fieldset>
-        <fieldset></fieldset>
+        <fieldset>
+            <label>Upload a profile picture: <input type="file"></label>
+            <label for="#">Input your age(years): <input type="number" min="13" max="120"></label>
+            <label>
+                How did you hear from us?
+                <select>
+                    <option value="">(select one)</option>
+                    <option value="1">News</option>
+                    <option value="2">Blog</option>
+                    <option value="3">Forums</option>
+                    <option value="4">Others</option>
+                </select>
+                <label for="#">
+                    Provid a bio:
+                    <textarea>
+                        
+                    </textarea>
+                </label>
+            </label>
+
+        </fieldset>
+        <input type="submit" value="Submit">
+
     </form>
 </body>
 </html>
