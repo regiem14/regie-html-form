@@ -13,15 +13,15 @@
 
     <form action="#">
         <fieldset>
-            <label for="#">Enter your First Name:<input type="text" name="firstName" required> </label>
-            <label for="#">Enter your Last Name:<input type="text" name="lastName" required> </label>
-            <label for="#">Enter your Email:<input type="email" name="email" required> </label>
-            <label for="#">Enter your Password:<input type="password" name="password" minlength="8" pattern="[a-z0-5{8,}]" required> </label>
+            <label for="#">Enter your First Name:<input type="text" name="firstName" required placeholder="Enter your First Name"> </label>
+            <label for="#">Enter your Last Name:<input type="text" name="lastName" required placeholder="Enter your Last Name"> </label>
+            <label for="#">Enter your Email:<input type="email" name="email" required placeholder="Enter your Email "> </label>
+            <label for="#">Enter your Password:<input type="password" name="password" minlength="8" pattern="[a-z0-5{8,}]" required placeholder="Enter a-z 0-5 min of 8 characters"> </label>
         </fieldset>
         <fieldset>
             <label for="#"><input class="inline" type="radio" name="account-type" id="">Personal Account</label>
             <label for="#"><input class="inline" type="radio" name="account-type" id="">Business Partner Account</label>
-            <label for="#"><input class="inline" type="checkbox" required>I accept the <a href="#">Terms and Conditions</a></label>
+            <label for="#"><input class="inline" type="checkbox" required>I accept the <a href="TermConditions.html" target="_blank">Terms and Conditions</a></label>
         </fieldset>
         <fieldset>
             <label>Upload a profile picture: <input type="file" name="fileUpload"></label>
