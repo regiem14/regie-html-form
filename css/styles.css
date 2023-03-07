@@ -9,5 +9,9 @@ body{
 label{
     display: inline-block;
     margin: 0.5rem 0;
-    background-color: rgb(202, 202, 253);
+    /* background-color: rgb(202, 202, 253); */
+}
+
+textarea::placeholder{
+    color: black;
 }
